@@ -1,0 +1,33 @@
+{
+  "name": "@brtzl/gh_env_importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "tweetsodium": "^0.0.4",
+    "yargs": "^17.5.1"
+  },
+  "author": "Bartu OZEL <bartuozel@gmail.com> (https://bartuozel.com)",
+  "description": "GitHub ENV Exporter is a tool for uplaoding all ENV secrets from .env file to GitHub Actions Secrets.",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRTZL/gh_env_importer.git"
+  },
+  "keywords": [
+    "github",
+    "env",
+    "secret",
+    "actions",
+    "export",
+    "import"
+  ],
+  "bugs": {
+    "url": "https://github.com/BRTZL/gh_env_importer/issues"
+  },
+  "homepage": "https://github.com/BRTZL/gh_env_importer#readme"
+}
