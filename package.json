@@ -1,6 +1,6 @@
 {
   "name": "@brtzl/gh_env_importer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -13,6 +13,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js"
+  },
+  "bin": {
+    "gh_env_importer": "index.js"
   },
   "repository": {
     "type": "git",

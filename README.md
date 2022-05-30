@@ -1,19 +1,11 @@
-# GitHub ENV Exporter
+# GitHub ENV Importer
 
-GitHub ENV Exporter is a tool for uplaoding all ENV secrets from .env file to GitHub Actions Secrets.
-
-## Installation
-
-Use the package manager [npm](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-npm install
-```
+GitHub ENV Importer is a tool for importing all ENV secrets from .env file to GitHub Actions Secrets.
 
 ## Usage
 
 ```bash
-node index.js
+npx gh_env_importer --owner=OWNER --repo=REPO --envpath=PATH_TO_ENV
 ```
 
 ## Contributing

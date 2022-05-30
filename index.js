@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const sodium = require("tweetsodium");
 const { exec } = require("child_process");
 const { owner, repo, envpath } = require("yargs/yargs")(process.argv.slice(2)).argv;
